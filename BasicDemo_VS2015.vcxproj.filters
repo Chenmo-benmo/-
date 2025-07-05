@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="BasicDemo.cpp" />
+    <ClCompile Include="BasicDemoDlg.cpp" />
+    <ClCompile Include="MvCamera.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="kport\MySerial.cpp" />
+    <ClCompile Include="kport\KPort.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\CameraParams.h" />
+    <ClInclude Include="..\..\include\MvCameraControl.h" />
+    <ClInclude Include="..\..\include\MvErrorDefine.h" />
+    <ClInclude Include="..\..\include\PixelType.h" />
+    <ClInclude Include="BasicDemo.h" />
+    <ClInclude Include="BasicDemoDlg.h" />
+    <ClInclude Include="MvCamera.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="kport\MySerial.h" />
+    <ClInclude Include="kport\KPort.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BasicDemo.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\BasicDemo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\BasicDemo.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
